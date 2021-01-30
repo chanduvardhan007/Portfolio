@@ -1,0 +1,109 @@
+<ul>
+            <li>home</li>
+            <li>dorne</li>
+
+        </ul>
+        <ol>
+            <li>Mkae allaiances</li>
+            <li>feed the troops</li>
+        </ol>
+
+--------------------------------
+
+<span style="">change the part of text</span>
+
+-----------------------------------
+
+<p>hi!this is dev</p>
+-------------------------------
+<sup>
+-------------------------------
+<sub>
+-----------------------------------
+<i>
+---------------------------------
+
+<link rel="stylesheet" type="text/css" href="style.css">
+--------------------------------------------
+
+<a href="https://www.google.com/">oops!</a>
+
+---------------------------------------------------
+<img src="pexels-photo-257360.jpeg" alt="nature" height="300" width="300">
+    
+--------------------------------------------------------
+<table border="solid white width 50px">
+            <tr>
+                <td>name</td>
+                <td>age</td>
+            </tr>
+            <tr>
+                <td>chandu</td>
+                <td>21</td>
+            </tr>
+        </table>
+-----------------------------------------------------------
+
+<video src="Jojo.Rabbit.2019.720p.WEBRip.x264.AAC-[YTS.MX].mp4" controls></video>
+        
+----------------------------------------
+<audio controls>
+            <source src="Maroon 5 - One More Night(3).mp3" type="audio/mpeg">
+            
+        </audio> 
+
+-----------------------------------------
+<form>
+	<input type="" required>
+</form>
+
+-----------------------------------------
+<textarea rows=10 cols=50>
+
+</textarea>  
+
+------------------------------------------
+*****dropdown in form*****
+<select name="">
+	<option value=""></option>
+</select>
+input type="select">
+
+----------------------------------
+****radio button******
+
+<label>
+	male:<input type="radio" name="gender" value="male">
+</label>
+
+note: label tag is used for any tag in form which is used to select certain element ny clicking the name
+-----------------------------------
+
+<button>submit</button>
+
+------------------------------------
+
+*******CSS**********
+
+div {                                div{
+border:2px solid black;      or            border-width: 8px;
+            				   border-color: blue;
+            				   border-style:double;
+}					}
+
+same for padding
+{
+padding: 0px 0px 0px 0px;
+}
+
+display:inline-block;
+
+font-weight:bold;
+
+font-style:italic;
+
+text-decoration:underline;
+
+border-radius:8px; //edges will become curvy or smooth
+
+opacity: 0.8;  //like transperant
