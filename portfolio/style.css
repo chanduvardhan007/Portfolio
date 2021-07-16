@@ -177,7 +177,7 @@ section#Projects {
 
 .box-area{
     display: flex;
-    
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
