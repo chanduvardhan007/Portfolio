@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
 * {
     margin : 0;
     padding: 0;
@@ -181,30 +183,41 @@ section#Projects {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    opacity: 1;
     flex-direction: row;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+    
     
 }
 
 .single-box{
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 300px;
     height:auto;
     border-radius: 4px;
-    background-color: rgb(236, 58, 58);
-    text-align: center;
+    align-items: center;
     margin:20px;
     padding: 20px;
     transition: .3s;
+    overflow-wrap: break-word;
+
+    
+    
+}
+.img-text{
+    font-family: 'Reggae One', cursive;
+    overflow: hidden;
+
+    
     
 }
 
 .img-area{
     display: flex;  
-    align-items: center;
+    
     justify-content: center;
     width: 80px;
     height: 80px;
@@ -216,6 +229,32 @@ section#Projects {
     background-position: center center;
 
 }
+
+.single-box:hover {
+    background-position: 100% 100%;
+    animation: up-bump 0.5s ease;
+    background-color: rgb(236, 58, 58);
+  }
+  .single-box:hover h2 {
+    color: #48ad26;
+  }
+  .single-box:hover h2 span {
+    color: rgb(255, 255, 255);
+  }
+  .single-box:hover h3 {
+    color: rgb(153, 153, 153);
+  }
+  
+  @keyframes up-bump {
+    0% { padding-top: 3em; }
+    50% { padding-top: 2em; }
+    100% { padding-top: 3em; }
+  }
+  @keyframes down-bump {
+    0% { padding-top: 3em; }
+    50% { padding-top: 2.5em; }
+    100% { padding-top: 3em; }
+  }
 
 
 
